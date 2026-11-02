@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI timerText;
 
-    public float currentTime = 120f; 
+    protected float currentTime = 120f; // protected so you can perhaps change it via a separate inheriting script thats exclusive to your microgame
     private bool isTimerActive = true;
 
     #endregion
