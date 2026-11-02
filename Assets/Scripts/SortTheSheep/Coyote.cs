@@ -11,6 +11,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
         [SerializeField] private Transform[] sheepSortZones = new Transform[4];
         private Sprite[] coyoteSprites; // Array to store all possible coyote sprites
         private bool isSortedIncorrectly = false;
+        [SerializeField] private GameOverScreen gameOver;
+        [SerializeField] private Canvas gameOverCanvas;
 
         #region Unity Functions (Start and Update)
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,6 +33,14 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected override void AssignSceneObjects()
         {
             base.AssignSceneObjects();
+
+            GameObject gameOverScreen = GameObject.Find("GameOverScreen"); // Find the canvas first
+            if (gameOverScreen != null)
+            {
+                gameOverCanvas = gameOverScreen.GetComponent<Canvas>();
+            }
+
+            gameOver = gameOverScreen.GetComponentInChildren<GameOverScreen>(); // Get the script needed to trigger the game over screen
 
             GameObject coyoteZone = GameObject.Find("Coyote Sort Zone");
             if(coyoteZone != null)
@@ -69,7 +79,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 transform.position = closestSortZone.position;
                 isSortedIncorrectly = true;
 
-                OnSortingFailure();
+                    OnSortingFailure();
+ 
             }
             else // if the coyote was dragged anywhere else in the scene.
             {
@@ -84,7 +95,12 @@ namespace SAE.GAD182.Project2.SortTheSheep
         #region Coyote Specific Functions
         private void OnSortingFailure()
         {
-            // Display game over scene after an animation plays and all instances of sheep are despawned.
+            if(isSortedIncorrectly == true)
+            {
+                // Display game over scene after an animation plays and all instances of sheep are despawned.
+                Time.timeScale = 0;
+                gameOver.gameOverCanvas.enabled = true;
+            }  
         }
         #endregion
     }
