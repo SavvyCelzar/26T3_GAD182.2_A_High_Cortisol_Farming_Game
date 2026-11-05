@@ -67,14 +67,14 @@ namespace SAE.GAD182.Project2.SortTheSheep
         {
             var closestSortZone = sheepSortZones.Where(sortZone => sortZone != null).OrderBy(sortZone => Vector2.Distance(transform.position, sortZone.position)).FirstOrDefault(); // Get the closest sheep sort zone 
 
-            if (Vector2.Distance(transform.position, sortArea.position) <= 2f) // If the coyote is correctly sorted into the disposal chute
+            if (Vector2.Distance(transform.position, sortArea.position) <= 1f) // If the coyote is correctly sorted into the disposal chute
             {
                 transform.position = sortArea.position;
                 isSortedCorrectly = true;
 
                 Destroy(gameObject);
             }
-            else if(sheepSortZones.Any(sortZone => sortZone != null && Vector2.Distance(transform.position, closestSortZone.position) <= 5f)) // if the coyote is sorted into any of the sheep's pens
+            else if(sheepSortZones.Any(sortZone => sortZone != null && Vector2.Distance(transform.position, closestSortZone.position) <= 1f)) // if the coyote is sorted into any of the sheep's pens
             {
                 transform.position = closestSortZone.position;
                 isSortedIncorrectly = true;

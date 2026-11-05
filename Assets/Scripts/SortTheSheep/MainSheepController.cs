@@ -75,6 +75,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
             if (Vector2.Distance(transform.position, sortArea.position) <= 2f)
             {
                 transform.position = sortArea.position;
+                GetComponent<AnimalMovement>().enabled = false;
+
                 isSortedCorrectly = true;
 
                 StartCoroutine(DespawnSortedSheep());

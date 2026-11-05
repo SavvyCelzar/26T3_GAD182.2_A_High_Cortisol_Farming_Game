@@ -9,12 +9,12 @@ public class Timer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
 
     protected float currentTime = 120f; // protected so you can perhaps change it via a separate inheriting script thats exclusive to your microgame
-    private bool isTimerActive = true;
+    protected bool isTimerActive = true;
 
     #endregion
 
     #region Unity Functions (Start and Update)
-    private void Start()
+    protected virtual void Start()
     {
         GameObject text = GameObject.Find("CountdownTimer"); // Name your timer text CountdownTimer so it can automatically assign the text reference here
         if(text != null)
