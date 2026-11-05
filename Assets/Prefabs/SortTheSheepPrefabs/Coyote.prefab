@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3084146204130612359}
   - component: {fileID: 5402102097730172417}
   - component: {fileID: 4441428075000365906}
+  - component: {fileID: 7778180420148841707}
   m_Layer: 0
   m_Name: Coyote
   m_TagString: Untagged
@@ -110,6 +111,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  gameOver: {fileID: 0}
+  gameOverCanvas: {fileID: 0}
 --- !u!65 &4441428075000365906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,3 +134,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7778180420148841707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4414313008476350424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1107f6e8b3dcfdd4db1817ea0ac4360e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allDestinations:
+  - {fileID: 2259583938915009010, guid: 95f3e7b58f87b6f44aa42678a7221b47, type: 3}
+  - {fileID: 5995159162789905920, guid: 591bf00d30ac7bc449ef6b53f292aa70, type: 3}
+  - {fileID: 206759061274321126, guid: 467c4295b1f2ecc488f510b30cff8ba6, type: 3}
+  - {fileID: 1298761157814845379, guid: 6db5a752662ab2f4a846c8fa99876013, type: 3}
+  - {fileID: 7003936176289055810, guid: a12e3ac423e68dd4a9215140bd902717, type: 3}
+  - {fileID: 4320204819008744281, guid: 12c063a7bcea55647ac61f170a2161b3, type: 3}
+  moveSpeed: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2625327185730642632}
   - component: {fileID: 2915295462805458811}
   - component: {fileID: 6316775055923145133}
+  - component: {fileID: -4801222566611917790}
   m_Layer: 0
   m_Name: Black Ram
   m_TagString: Untagged
@@ -151,3 +152,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-4801222566611917790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627924622660861529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1107f6e8b3dcfdd4db1817ea0ac4360e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allDestinations:
+  - {fileID: 2259583938915009010, guid: 95f3e7b58f87b6f44aa42678a7221b47, type: 3}
+  - {fileID: 5995159162789905920, guid: 591bf00d30ac7bc449ef6b53f292aa70, type: 3}
+  - {fileID: 206759061274321126, guid: 467c4295b1f2ecc488f510b30cff8ba6, type: 3}
+  - {fileID: 1298761157814845379, guid: 6db5a752662ab2f4a846c8fa99876013, type: 3}
+  - {fileID: 7003936176289055810, guid: a12e3ac423e68dd4a9215140bd902717, type: 3}
+  - {fileID: 4320204819008744281, guid: 12c063a7bcea55647ac61f170a2161b3, type: 3}
+  moveSpeed: 1
