@@ -293,6 +293,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &372839345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372839346}
+  - component: {fileID: 372839347}
+  m_Layer: 0
+  m_Name: AnimalSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372839346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372839345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03, y: 3.18, z: -0.050636217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &372839347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372839345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f358c963a8b6204481da23763c28a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allAnimalTypes:
+  - {fileID: 627924622660861529, guid: cd9dc8dfa6d3f884eb4cc0d81a282a11, type: 3}
+  - {fileID: 1767543231542924296, guid: 2fd97c120fef6a440beb1071076fa3c7, type: 3}
+  - {fileID: 4218726093341377283, guid: 01fac351e27deca4081d482735fab24c, type: 3}
+  - {fileID: 3783580017458216633, guid: bc360301ed965aa429d7ea7c0f28319a, type: 3}
+  - {fileID: 4414313008476350424, guid: eea174d92807b2a4c893aac376641d2f, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1794,7 @@ SceneRoots:
   - {fileID: 1540423034}
   - {fileID: 1883122945}
   - {fileID: 4924122481831410319}
+  - {fileID: 372839346}
   - {fileID: 2245214}
   - {fileID: 24276487}
   - {fileID: 1709403206}
