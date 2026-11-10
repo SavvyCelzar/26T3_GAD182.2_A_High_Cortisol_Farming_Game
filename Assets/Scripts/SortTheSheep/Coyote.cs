@@ -12,7 +12,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
         private Sprite[] coyoteSprites; // Array to store all possible coyote sprites
         private bool isSortedIncorrectly = false;
         [SerializeField] private GameOverScreen gameOver;
-        [SerializeField] private Canvas gameOverCanvas;
+        [SerializeField] private Canvas gameOverCanvas; 
 
         #region Unity Functions (Start and Update)
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -57,11 +57,25 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected override void OnMouseDown()
         {
-            base.OnMouseDown();
+            if (isAnythingElseBeingDragged)
+            {
+                return;
+            }
+            else
+            {
+                base.OnMouseDown();
+            } 
         }
         protected override void OnMouseDrag()
         {
-            base.OnMouseDrag();
+            if (isAnythingElseBeingDragged)
+            {
+                return;
+            }
+            else
+            {
+                base.OnMouseDrag();
+            }
         }
         protected override void OnMouseUp()
         {

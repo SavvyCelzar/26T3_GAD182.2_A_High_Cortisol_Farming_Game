@@ -19,7 +19,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected Vector2 originalPosition;
         protected bool isSortedCorrectly = false;
-        protected bool isDragging = false;
+        protected bool amIBeingDragged = false; // Checks if the object tied to the script is being dragged
+        protected bool isAnythingElseBeingDragged = false;
         [SerializeField] protected float sheepMoveSpeed = 2f;
 
         #endregion
@@ -57,13 +58,16 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected virtual void OnMouseDown()
         {
-           isDragging = true;
+           amIBeingDragged = true;
+
            Debug.Log("Being Dragged");
         }
 
         protected virtual void OnMouseDrag()
         {
-            if (isDragging == true && isSortedCorrectly == false)
+            if (!amIBeingDragged) return; // Only attach to mouse and move around IF this was the first object clicked on.
+
+            if (amIBeingDragged == true && isSortedCorrectly == false)
             {
                 transform.position = mouseCursor.position;
                 transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
@@ -88,6 +92,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
             transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
         }
+
         #endregion
 
         #region Despawn Sheep Coroutine
