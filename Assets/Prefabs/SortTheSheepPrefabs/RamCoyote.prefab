@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4441428075000365906}
   - component: {fileID: 7778180420148841707}
   m_Layer: 0
-  m_Name: Coyote
+  m_Name: RamCoyote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

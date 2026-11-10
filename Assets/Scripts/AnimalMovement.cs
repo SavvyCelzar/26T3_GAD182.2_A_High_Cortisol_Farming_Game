@@ -15,13 +15,21 @@ public class AnimalMovement : MonoBehaviour
     {
         currentDestination = 0;
         randomDirections = true;
+
+        if (allDestinations != null && allDestinations.Count > 0)
+        {
+            currentDestination = Random.Range(0, allDestinations.Count);
+        }
+        else
+        {
+            Debug.Log("No destinations assigned in array within the Inspector.");
+        }
     }
 
     // Update is called once per frame
    private void Update()
     {
         MoveSelf();
- 
     }
 
 
@@ -35,8 +43,14 @@ public class AnimalMovement : MonoBehaviour
             {
                 case true:
 
-                    int randomNumber = Random.Range(0, allDestinations.Count);
-                    currentDestination = randomNumber;
+                    int newDestination = currentDestination;
+
+                    while (newDestination == currentDestination) // Ensures that it doesnt pick the same destination it is currently on.
+                    {
+                        newDestination = Random.Range(0, allDestinations.Count);
+                    }
+
+                    currentDestination = newDestination;
 
                     break;
 
