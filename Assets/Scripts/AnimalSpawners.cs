@@ -4,10 +4,18 @@ using System.Collections.Generic;
 public class AnimalSpawners : Timer
 {
     private Transform spawnPoint;
-    private float timeBetweenSpawns = 3f;
     [SerializeField] private GameObject[] allAnimalTypes; // Assign animal types in Unity Inspector
     private List<GameObject> animalsInScene = new List<GameObject>();
-    private float timer;
+
+    private float currentSpawnRate;
+    private float startingSpawnRate = 3f;
+    private float minimumSpawnRate = 0.5f;
+
+    private float increaseSpawnRateBy = 0.5f; 
+    private float secondsToSpawnIncrease = 20f;
+
+    private float spawnerTimer;
+    private float spawnRateTimer;
 
     protected override void Start()
     {
@@ -18,44 +26,32 @@ public class AnimalSpawners : Timer
         {
             spawnPoint = spawner.transform;
         }
+
+        currentSpawnRate = startingSpawnRate;       
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        ChangeSpawnRate();
+        spawnRateTimer += Time.deltaTime;
 
-        if (timer >= timeBetweenSpawns)
+        if (spawnRateTimer >= secondsToSpawnIncrease)
+        {
+            currentSpawnRate -= increaseSpawnRateBy;
+            currentSpawnRate = Mathf.Max(currentSpawnRate, minimumSpawnRate);
+
+            spawnRateTimer = 0f;
+            Debug.Log("20 seconds passed, new spawn rate is now " + currentSpawnRate + " seconds.");
+        }
+
+        spawnerTimer += Time.deltaTime;
+
+        if (spawnerTimer >= currentSpawnRate)
         {
             SpawnAnimal();
-            timer = 0;
+            spawnerTimer = 0;
         }
 
-    }
-
-    private void ChangeSpawnRate()
-    {
-        if (currentTime <= 80 && currentTime >= 41)
-        {
-            timeBetweenSpawns = 2;
-            Debug.Log("Spawn rate is now 2 seconds");
-        }
-        else if (currentTime <= 40 && currentTime >= 21)
-        {
-            timeBetweenSpawns = 1;
-            Debug.Log("Spawn rate is now 1 second");
-        }
-        else if (currentTime <= 20 && currentTime >= 11)
-        {
-            timeBetweenSpawns = 0.5f;
-            Debug.Log("Spawn rate is now 0.5 seconds");
-        }
-        else if (currentTime <= 10 && currentTime >= 1)
-        {
-            timeBetweenSpawns = 0.1f;
-            Debug.Log("Spawn rate is now 0.1 second");
-        }
     }
 
     private void SpawnAnimal()
