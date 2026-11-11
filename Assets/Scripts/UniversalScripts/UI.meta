@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 8e951e996ebcb544fb39fd4ac929b3bd
 folderAsset: yes
 DefaultImporter:
@@ -10,3 +11,6 @@ DefaultImporter:
 =======
 guid: 8e951e996ebcb544fb39fd4ac929b3bd
 >>>>>>> a9fc922 (Completed Pause and Game Over Screens)
+=======
+guid: 8e951e996ebcb544fb39fd4ac929b3bd
+>>>>>>> origin/sort-the-sheep
