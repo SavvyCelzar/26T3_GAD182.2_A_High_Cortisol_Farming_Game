@@ -11,6 +11,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
         [SerializeField] private Transform[] sheepSortZones = new Transform[4];
         private Sprite[] coyoteSprites; // Array to store all possible coyote sprites
         private bool isSortedIncorrectly = false;
+
+        private Coroutine gameOverCoroutine;
         [SerializeField] private GameOverScreen gameOver;
         [SerializeField] private Canvas gameOverCanvas; 
 
@@ -19,6 +21,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected override void Start()
         {
             base.Start();
+            gameOverCoroutine = StartCoroutine(CommenceCoyoteTimer());
         }
 
         // Update is called once per frame
@@ -57,25 +60,11 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected override void OnMouseDown()
         {
-            if (isAnythingElseBeingDragged)
-            {
-                return;
-            }
-            else
-            {
-                base.OnMouseDown();
-            } 
+            base.OnMouseDown();
         }
         protected override void OnMouseDrag()
         {
-            if (isAnythingElseBeingDragged)
-            {
-                return;
-            }
-            else
-            {
-                base.OnMouseDrag();
-            }
+            base.OnMouseDrag();  
         }
         protected override void OnMouseUp()
         {
@@ -117,5 +106,19 @@ namespace SAE.GAD182.Project2.SortTheSheep
             }  
         }
         #endregion
+        private IEnumerator CommenceCoyoteTimer() // If Coyote is not correctly sorted within 10 seconds, trigger a game over.
+        {
+            yield return new WaitForSeconds(5);
+
+            // Code to initiate a flashing animation as a visual indicator to the player
+
+            yield return new WaitForSeconds(5);
+
+            Time.timeScale = 0;
+            gameOver.gameOverCanvas.enabled = true;
+
+            yield return null;
+        }
     }
+
 }
