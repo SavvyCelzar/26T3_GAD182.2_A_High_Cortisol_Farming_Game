@@ -20,8 +20,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected Vector2 originalPosition;
         protected bool isSortedCorrectly = false;
         protected bool amIBeingDragged = false; // Checks if the object tied to the script is being dragged
-        protected bool isAnythingElseBeingDragged = false;
         [SerializeField] protected float sheepMoveSpeed = 2f;
+      
 
         #endregion
 

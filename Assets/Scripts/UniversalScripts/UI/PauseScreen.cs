@@ -33,7 +33,7 @@ public class PauseScreen : MonoBehaviour
         {
             pauseCanvas = pauseScreen.GetComponent<Canvas>();   
         }
-        GameObject resume = GameObject.Find("PSContinueButton"); // PS = Pause Screen; just differentiates it from the Game Over Screen's buttons that do the same things really
+        GameObject resume = GameObject.Find("PSResumeButton"); // PS = Pause Screen; just differentiates it from the Game Over Screen's buttons that do the same things really
         if(resume != null)
         {
             continueButton = resume.GetComponent<Button>();
@@ -45,7 +45,7 @@ public class PauseScreen : MonoBehaviour
             quitButton = quit.GetComponent<Button>();
         }
 
-        continueButton.onClick.AddListener(Continue);
+        continueButton.onClick.AddListener(Resume);
         quitButton.onClick.AddListener(QuitToMenu);
 
     }
@@ -56,7 +56,7 @@ public class PauseScreen : MonoBehaviour
         pauseCanvas.enabled = true;
     }
 
-    private void Continue()
+    private void Resume()
     {
         Time.timeScale = 1;
         pauseCanvas.enabled = false;
