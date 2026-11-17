@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 0}
+  winScript: {fileID: 0}
   allAnimalTypes:
   - {fileID: 627924622660861529, guid: cd9dc8dfa6d3f884eb4cc0d81a282a11, type: 3}
   - {fileID: 1767543231542924296, guid: 2fd97c120fef6a440beb1071076fa3c7, type: 3}
@@ -1398,6 +1399,10 @@ PrefabInstance:
     - target: {fileID: 2559991410057936145, guid: 55def4a8da4668d4eae15302bdfdc8ff, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3901775129447635024, guid: 55def4a8da4668d4eae15302bdfdc8ff, type: 3}
+      propertyPath: m_Name
+      value: PSResumeButton
       objectReference: {fileID: 0}
     - target: {fileID: 6153125145857774226, guid: 55def4a8da4668d4eae15302bdfdc8ff, type: 3}
       propertyPath: m_Pivot.x

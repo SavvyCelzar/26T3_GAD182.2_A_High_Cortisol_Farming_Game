@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
     #region Variables
 
     [SerializeField] private TextMeshProUGUI timerText;
+    [SerializeField] private WinScreen winScript;
 
     protected float currentTime = 120f; // protected so you can perhaps change it via a separate inheriting script thats exclusive to your microgame
     protected bool isTimerActive = true;
@@ -21,6 +22,8 @@ public class Timer : MonoBehaviour
         {
             timerText = text.GetComponent<TextMeshProUGUI>();
         }
+
+        winScript = GameObject.FindFirstObjectByType<WinScreen>();
     }
 
     // Update is called once per frame
@@ -37,6 +40,7 @@ public class Timer : MonoBehaviour
         if (currentTime <= 0)
         {
             StopTimer();
+            winScript.winCanvas.enabled = true;
         }
     }
 
@@ -62,6 +66,7 @@ public class Timer : MonoBehaviour
     {
         isTimerActive = false;
         currentTime = 0f;
+        Time.timeScale = 0f;
         UpdateTimerText();
     }
 

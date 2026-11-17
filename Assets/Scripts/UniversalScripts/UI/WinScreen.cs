@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class WinScreen : MonoBehaviour
 {
-    [SerializeField] private Canvas winCanvas;
+    public Canvas winCanvas;
     [SerializeField] private Button continueButton;
     [SerializeField] private Button quitButton;
 
@@ -18,7 +18,7 @@ public class WinScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     private void GetUIReferencesAndListeners()
@@ -38,7 +38,7 @@ public class WinScreen : MonoBehaviour
         if (quit != null)
         {
             quitButton = quit.GetComponent<Button>();
-        }
+        } 
 
         continueButton.onClick.AddListener(Continue);
         quitButton.onClick.AddListener(QuitToMenu);
