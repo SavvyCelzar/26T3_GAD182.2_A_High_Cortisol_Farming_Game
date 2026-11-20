@@ -8,7 +8,7 @@ public class AnimalSpawners : Timer
     private List<GameObject> animalsInScene = new List<GameObject>();
 
     private float currentSpawnRate;
-   [SerializeField] private float startingSpawnRate = 3f;
+   [SerializeField] private float startingSpawnRate = 2f;
     private float minimumSpawnRate = 0.5f;
 
     private float increaseSpawnRateBy = 0.5f; 

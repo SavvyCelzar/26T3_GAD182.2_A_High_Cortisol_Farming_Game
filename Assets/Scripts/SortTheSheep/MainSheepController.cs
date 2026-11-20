@@ -21,7 +21,9 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected bool isSortedCorrectly = false;
         protected bool amIBeingDragged = false; // Checks if the object tied to the script is being dragged
         [SerializeField] protected float sheepMoveSpeed = 2f;
-      
+        public SpriteRenderer sheepSpriteRenderer;
+
+        protected static bool anyObjectBeingDragged = false;
 
         #endregion
 
@@ -31,6 +33,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
             AssignSceneObjects();
 
             originalPosition = transform.position;
+            sheepSpriteRenderer = GetComponent<SpriteRenderer>();   
         }
 
         protected virtual void Update()
@@ -58,6 +61,9 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected virtual void OnMouseDown()
         {
+           if(anyObjectBeingDragged) return;
+
+           anyObjectBeingDragged = true;
            amIBeingDragged = true;
 
            Debug.Log("Being Dragged");
@@ -76,6 +82,12 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
         protected virtual void OnMouseUp()
         {
+            if (!amIBeingDragged) return;
+            
+                amIBeingDragged = false;
+                anyObjectBeingDragged = false;
+                
+
             if (Vector2.Distance(transform.position, sortArea.position) <= 2f)
             {
                 transform.position = sortArea.position;

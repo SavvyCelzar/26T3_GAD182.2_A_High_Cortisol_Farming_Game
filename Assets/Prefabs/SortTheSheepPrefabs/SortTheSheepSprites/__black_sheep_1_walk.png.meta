@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: ea70e79164aea1c469adbfb3d1922de5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 749767376460969784
+    second: __black_sheep_1_walk_0
+  - first:
+      213: -1160279454356923367
+    second: __black_sheep_1_walk_1
+  - first:
+      213: -8827719262036957707
+    second: __black_sheep_1_walk_2
+  - first:
+      213: -4525473039610700194
+    second: __black_sheep_1_walk_3
+  - first:
+      213: 2491397107721045158
+    second: __black_sheep_1_walk_4
+  - first:
+      213: -6832804986397382136
+    second: __black_sheep_1_walk_5
+  - first:
+      213: -2665585804851991026
+    second: __black_sheep_1_walk_6
+  - first:
+      213: -1892692538621879577
+    second: __black_sheep_1_walk_7
+  - first:
+      213: 7216737139068825569
+    second: __black_sheep_1_walk_8
+  - first:
+      213: -3613370144256482898
+    second: __black_sheep_1_walk_9
+  - first:
+      213: 2084729029393022952
+    second: __black_sheep_1_walk_10
+  - first:
+      213: -935079250996464263
+    second: __black_sheep_1_walk_11
+  - first:
+      213: 3109574941156047201
+    second: __black_sheep_1_walk_12
+  - first:
+      213: -7178672522520871917
+    second: __black_sheep_1_walk_13
+  - first:
+      213: 8013543521980509215
+    second: __black_sheep_1_walk_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 786
+        width: 313
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837f12ad475b76a00800000000000000
+      internalID: 749767376460969784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 784
+        width: 314
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c1fd2dbfbd5efe0800000000000000
+      internalID: -1160279454356923367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 782
+        width: 314
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5e9693a14ad7580800000000000000
+      internalID: -8827719262036957707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 781
+        width: 314
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e95695f3a4231c0800000000000000
+      internalID: -4525473039610700194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 781
+        width: 313
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a406203878339220800000000000000
+      internalID: 2491397107721045158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 420
+        width: 312
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a244e01100d21a0800000000000000
+      internalID: -6832804986397382136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 421
+        width: 311
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e297755dfe10bd0800000000000000
+      internalID: -2665585804851991026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_7
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 416
+        width: 311
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea196ef92ecbb5e0800000000000000
+      internalID: -1892692538621879577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 415
+        width: 312
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efe09b2130072460800000000000000
+      internalID: 7216737139068825569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 417
+        width: 312
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1279d8ffabaddc0800000000000000
+      internalID: -3613370144256482898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 312
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef7ae1c1027eec10800000000000000
+      internalID: 2084729029393022952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_11
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 52
+        width: 313
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975748f106ee503f0800000000000000
+      internalID: -935079250996464263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_12
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 56
+        width: 314
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169ff0a0fed672b20800000000000000
+      internalID: 3109574941156047201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 60
+        width: 314
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c3940006b306c90800000000000000
+      internalID: -7178672522520871917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __black_sheep_1_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 59
+        width: 314
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ce7cb2063d53f60800000000000000
+      internalID: 8013543521980509215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      __black_sheep_1_walk_0: 749767376460969784
+      __black_sheep_1_walk_1: -1160279454356923367
+      __black_sheep_1_walk_10: 2084729029393022952
+      __black_sheep_1_walk_11: -935079250996464263
+      __black_sheep_1_walk_12: 3109574941156047201
+      __black_sheep_1_walk_13: -7178672522520871917
+      __black_sheep_1_walk_14: 8013543521980509215
+      __black_sheep_1_walk_2: -8827719262036957707
+      __black_sheep_1_walk_3: -4525473039610700194
+      __black_sheep_1_walk_4: 2491397107721045158
+      __black_sheep_1_walk_5: -6832804986397382136
+      __black_sheep_1_walk_6: -2665585804851991026
+      __black_sheep_1_walk_7: -1892692538621879577
+      __black_sheep_1_walk_8: 7216737139068825569
+      __black_sheep_1_walk_9: -3613370144256482898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

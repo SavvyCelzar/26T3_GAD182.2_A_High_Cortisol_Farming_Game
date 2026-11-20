@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 2b7ead13af319f647b13fd7926a1f495
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3733124810730371864
+    second: __white_sheep_2_walk_0
+  - first:
+      213: 2040338821696302110
+    second: __white_sheep_2_walk_1
+  - first:
+      213: -5566920072905670051
+    second: __white_sheep_2_walk_2
+  - first:
+      213: -202551714347192093
+    second: __white_sheep_2_walk_3
+  - first:
+      213: -1852380429899674570
+    second: __white_sheep_2_walk_4
+  - first:
+      213: -2629216380436807784
+    second: __white_sheep_2_walk_5
+  - first:
+      213: 1647722385950457112
+    second: __white_sheep_2_walk_6
+  - first:
+      213: -8309843183423501816
+    second: __white_sheep_2_walk_7
+  - first:
+      213: -4390924689593340893
+    second: __white_sheep_2_walk_8
+  - first:
+      213: -4846950100597014845
+    second: __white_sheep_2_walk_9
+  - first:
+      213: 5898087401525449262
+    second: __white_sheep_2_walk_10
+  - first:
+      213: -9045695298106308473
+    second: __white_sheep_2_walk_11
+  - first:
+      213: -2025924462593882747
+    second: __white_sheep_2_walk_12
+  - first:
+      213: 7129393789016288641
+    second: __white_sheep_2_walk_13
+  - first:
+      213: -5429825652359114980
+    second: __white_sheep_2_walk_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 791
+        width: 334
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bf7c58c39bec330800000000000000
+      internalID: 3733124810730371864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 789
+        width: 333
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca5a0295db05c10800000000000000
+      internalID: 2040338821696302110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_2
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 788
+        width: 334
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52477140b35eb2b0800000000000000
+      internalID: -5566920072905670051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 787
+        width: 333
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e070b9f944603df0800000000000000
+      internalID: -202551714347192093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 787
+        width: 333
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cc1f630d50b46e0800000000000000
+      internalID: -1852380429899674570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 422
+        width: 332
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ffc66d1a5238bd0800000000000000
+      internalID: -2629216380436807784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 422
+        width: 331
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d390fa7c2edd610800000000000000
+      internalID: 1647722385950457112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 418
+        width: 332
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a47d0f6a18dac80800000000000000
+      internalID: -8309843183423501816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 417
+        width: 332
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ceb49424d4013c0800000000000000
+      internalID: -4390924689593340893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 418
+        width: 332
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cefed1509c2cbcb0800000000000000
+      internalID: -4846950100597014845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 332
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2291260e373ad150800000000000000
+      internalID: 5898087401525449262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 50
+        width: 333
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788c3f17d0c377280800000000000000
+      internalID: -9045695298106308473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 53
+        width: 334
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58541516f6872e3e0800000000000000
+      internalID: -2025924462593882747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 57
+        width: 334
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d2132c0e1b0f260800000000000000
+      internalID: 7129393789016288641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __white_sheep_2_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 57
+        width: 334
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fc4de665265a4b0800000000000000
+      internalID: -5429825652359114980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      __white_sheep_2_walk_0: 3733124810730371864
+      __white_sheep_2_walk_1: 2040338821696302110
+      __white_sheep_2_walk_10: 5898087401525449262
+      __white_sheep_2_walk_11: -9045695298106308473
+      __white_sheep_2_walk_12: -2025924462593882747
+      __white_sheep_2_walk_13: 7129393789016288641
+      __white_sheep_2_walk_14: -5429825652359114980
+      __white_sheep_2_walk_2: -5566920072905670051
+      __white_sheep_2_walk_3: -202551714347192093
+      __white_sheep_2_walk_4: -1852380429899674570
+      __white_sheep_2_walk_5: -2629216380436807784
+      __white_sheep_2_walk_6: 1647722385950457112
+      __white_sheep_2_walk_7: -8309843183423501816
+      __white_sheep_2_walk_8: -4390924689593340893
+      __white_sheep_2_walk_9: -4846950100597014845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

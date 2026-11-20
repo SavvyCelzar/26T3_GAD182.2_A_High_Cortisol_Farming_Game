@@ -26,10 +26,10 @@ public class GameOverScreen : MonoBehaviour
         {
             gameOverCanvas = gameOverScreen.GetComponent<Canvas>();
         }
-        GameObject restart = GameObject.Find("GOSRestartButton"); // GOS = Game Over Screen (For differentiating the buttons between the pause screen tbh)
-        if (restart != null)
+        GameObject continu = GameObject.Find("GOSContinueButton"); // GOS = Game Over Screen (For differentiating the buttons between the pause screen tbh)
+        if (continu != null)
         {
-            restartButton = restart.GetComponent<Button>();
+            restartButton = continu.GetComponent<Button>();
         }
 
         GameObject quit = GameObject.Find("GOSQuitButton");

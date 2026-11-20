@@ -27,7 +27,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
         // Update is called once per frame
         protected override void Update()
         {
-            base.Update();
+            base.Update();   
         }
 
         #endregion
@@ -64,10 +64,15 @@ namespace SAE.GAD182.Project2.SortTheSheep
         }
         protected override void OnMouseDrag()
         {
-            base.OnMouseDrag();  
+            base.OnMouseDrag();
         }
         protected override void OnMouseUp()
         {
+            if (!amIBeingDragged) return;
+
+            amIBeingDragged = false;
+            anyObjectBeingDragged = false;
+
             var closestSortZone = sheepSortZones.Where(sortZone => sortZone != null).OrderBy(sortZone => Vector2.Distance(transform.position, sortZone.position)).FirstOrDefault(); // Get the closest sheep sort zone 
 
             if (Vector2.Distance(transform.position, sortArea.position) <= 1f) // If the coyote is correctly sorted into the disposal chute
@@ -119,6 +124,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
             yield return null;
         }
+
     }
 
 }

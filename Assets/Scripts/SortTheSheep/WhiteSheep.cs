@@ -50,6 +50,11 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected override void OnMouseUp()
         {
            base.OnMouseUp();
+
+            if (isSortedCorrectly)
+            {
+                sheepSpriteRenderer.flipX = false;
+            }
         }
 
         #endregion

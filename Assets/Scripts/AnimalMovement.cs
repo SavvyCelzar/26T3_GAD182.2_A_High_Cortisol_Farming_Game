@@ -8,11 +8,15 @@ public class AnimalMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 1f;
     private int currentDestination;
     private bool randomDirections;
+    //private float previousXPosition;
     private MainSheepController sheepController;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
+        sheepController = GetComponent<MainSheepController>();
+
+        //previousXPosition = transform.position.x;
         currentDestination = 0;
         randomDirections = true;
 
@@ -30,6 +34,17 @@ public class AnimalMovement : MonoBehaviour
    private void Update()
     {
         MoveSelf();
+
+        float xMoveDirection = allDestinations[currentDestination].position.x - transform.position.x;
+
+        if (xMoveDirection < -0.01f) // Flip sheep sprite according to what direction they're heading
+        {
+            sheepController.sheepSpriteRenderer.flipX = false; // Face left
+        }
+        else if (xMoveDirection > 0.01f)
+        {
+            sheepController.sheepSpriteRenderer.flipX = true; // Face right
+        }
     }
 
 
@@ -50,7 +65,7 @@ public class AnimalMovement : MonoBehaviour
                         newDestination = Random.Range(0, allDestinations.Count);
                     }
 
-                    currentDestination = newDestination;
+                    currentDestination = newDestination;       
 
                     break;
 
@@ -61,7 +76,9 @@ public class AnimalMovement : MonoBehaviour
                         currentDestination = 0;
                     }
                     break;
-            }          
+                
+            }
+            
         }
     }
 }
