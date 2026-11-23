@@ -9,18 +9,22 @@ namespace SAE.GAD182.Project2.SortTheSheep
     public class Coyote : MainSheepController
     {
         [SerializeField] private Transform[] sheepSortZones = new Transform[4];
-        private Sprite[] coyoteSprites; // Array to store all possible coyote sprites
         private bool isSortedIncorrectly = false;
 
         private Coroutine gameOverCoroutine;
         [SerializeField] private GameOverScreen gameOver;
-        [SerializeField] private Canvas gameOverCanvas; 
+        [SerializeField] private Canvas gameOverCanvas;
+
+        // Sounds for sorting Coyotes
+        [SerializeField] private AudioSource trashChuteAudioSource;
+        
 
         #region Unity Functions (Start and Update)
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         protected override void Start()
         {
             base.Start();
+
             gameOverCoroutine = StartCoroutine(CommenceCoyoteTimer());
         }
 
@@ -51,6 +55,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 sortArea = coyoteZone.transform;
             }
 
+            trashChuteAudioSource = GameObject.Find("TrashChuteAudioSource").GetComponent<AudioSource>();
+
             sheepSortZones[0] = GameObject.Find("BS Sort Zone")?.transform;
             sheepSortZones[1] = GameObject.Find("BR Sort Zone")?.transform;
             sheepSortZones[2] = GameObject.Find("WS Sort Zone")?.transform;
@@ -61,6 +67,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
         protected override void OnMouseDown()
         {
             base.OnMouseDown();
+            PlayRandomAnimalSound();
         }
         protected override void OnMouseDrag()
         {
@@ -80,6 +87,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 transform.position = sortArea.position;
                 isSortedCorrectly = true;
 
+                trashChuteAudioSource.Play();
+
                 Destroy(gameObject);
             }
             else if(sheepSortZones.Any(sortZone => sortZone != null && Vector2.Distance(transform.position, closestSortZone.position) <= 1f)) // if the coyote is sorted into any of the sheep's pens
@@ -87,7 +96,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 transform.position = closestSortZone.position;
                 isSortedIncorrectly = true;
 
-                    OnSortingFailure();
+                OnSortingFailure();
  
             }
             else // if the coyote was dragged anywhere else in the scene.
@@ -95,7 +104,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 transform.position = originalPosition;
             }
 
-            transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
 
         }
         #endregion
@@ -107,6 +116,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
             {
                 // Display game over scene after an animation plays and all instances of sheep are despawned.
                 Time.timeScale = 0;
+                gameOver.gameOverSFX.Play();
                 gameOver.gameOverCanvas.enabled = true;
             }  
         }

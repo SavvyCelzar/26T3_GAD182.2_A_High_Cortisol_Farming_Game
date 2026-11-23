@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 4c9fce77d97dcf944826b6d853b6b132
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5541045093605760440
+    second: White Sheep Coyote Sprite_0
+  - first:
+      213: 7314197428371653942
+    second: White Sheep Coyote Sprite_1
+  - first:
+      213: -4685121924889907805
+    second: White Sheep Coyote Sprite_2
+  - first:
+      213: -3919562000457200101
+    second: White Sheep Coyote Sprite_3
+  - first:
+      213: 5172379138834557292
+    second: White Sheep Coyote Sprite_4
+  - first:
+      213: -6909959728323396282
+    second: White Sheep Coyote Sprite_5
+  - first:
+      213: -6523907707156441456
+    second: White Sheep Coyote Sprite_6
+  - first:
+      213: 1412537358117915037
+    second: White Sheep Coyote Sprite_7
+  - first:
+      213: 3320973811473212670
+    second: White Sheep Coyote Sprite_8
+  - first:
+      213: -1458534111141038290
+    second: White Sheep Coyote Sprite_9
+  - first:
+      213: -4552999044886085253
+    second: White Sheep Coyote Sprite_10
+  - first:
+      213: 5018965470153318945
+    second: White Sheep Coyote Sprite_11
+  - first:
+      213: -1453938791302400869
+    second: White Sheep Coyote Sprite_12
+  - first:
+      213: 6045980409692419176
+    second: White Sheep Coyote Sprite_13
+  - first:
+      213: 5518650705978564421
+    second: White Sheep Coyote Sprite_14
+  - first:
+      213: 8261895223828913814
+    second: White Sheep Coyote Sprite_15
+  - first:
+      213: 1167574146984726497
+    second: White Sheep Coyote Sprite_16
+  - first:
+      213: 5845604823087670782
+    second: White Sheep Coyote Sprite_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 786
+        width: 368
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842253758d04a13b0800000000000000
+      internalID: -5541045093605760440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 784
+        width: 368
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6350b2f0fcf318560800000000000000
+      internalID: 7314197428371653942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 782
+        width: 372
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adea81ae6a1bfeb0800000000000000
+      internalID: -4685121924889907805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 781
+        width: 370
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e01a7902bea99c0800000000000000
+      internalID: -3919562000457200101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 781
+        width: 363
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69efdd1c6bf7c740800000000000000
+      internalID: 5172379138834557292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 420
+        width: 371
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d7705dc34ea10a0800000000000000
+      internalID: -6909959728323396282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 421
+        width: 372
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096d187618c6675a0800000000000000
+      internalID: -6523907707156441456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 416
+        width: 371
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef46c351618761e20800000000000000
+      internalID: 3320973811473212670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 415
+        width: 372
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b714fd2dd7f70d0c0800000000000000
+      internalID: -4552999044886085253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 417
+        width: 366
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9472436f5292dbe0800000000000000
+      internalID: -1453938791302400869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 371
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864ffae4623a7e350800000000000000
+      internalID: 6045980409692419176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 52
+        width: 368
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f9f49f39f269c40800000000000000
+      internalID: 5518650705978564421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 56
+        width: 368
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e91d3cee528a270800000000000000
+      internalID: 8261895223828913814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 60
+        width: 364
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef44f7208e043010800000000000000
+      internalID: 1167574146984726497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Sheep Coyote Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 59
+        width: 359
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef563718d92cf1150800000000000000
+      internalID: 5845604823087670782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ce7db37465d9fc444ba679103cd84af7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      White Sheep Coyote Sprite_0: -5541045093605760440
+      White Sheep Coyote Sprite_1: 7314197428371653942
+      White Sheep Coyote Sprite_10: -4552999044886085253
+      White Sheep Coyote Sprite_11: 5018965470153318945
+      White Sheep Coyote Sprite_12: -1453938791302400869
+      White Sheep Coyote Sprite_13: 6045980409692419176
+      White Sheep Coyote Sprite_14: 5518650705978564421
+      White Sheep Coyote Sprite_15: 8261895223828913814
+      White Sheep Coyote Sprite_16: 1167574146984726497
+      White Sheep Coyote Sprite_17: 5845604823087670782
+      White Sheep Coyote Sprite_2: -4685121924889907805
+      White Sheep Coyote Sprite_3: -3919562000457200101
+      White Sheep Coyote Sprite_4: 5172379138834557292
+      White Sheep Coyote Sprite_5: -6909959728323396282
+      White Sheep Coyote Sprite_6: -6523907707156441456
+      White Sheep Coyote Sprite_7: 1412537358117915037
+      White Sheep Coyote Sprite_8: 3320973811473212670
+      White Sheep Coyote Sprite_9: -1458534111141038290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

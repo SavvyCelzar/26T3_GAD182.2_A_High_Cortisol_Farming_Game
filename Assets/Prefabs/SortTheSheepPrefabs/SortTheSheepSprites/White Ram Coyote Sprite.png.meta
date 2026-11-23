@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: fee7636bf5c02b1429accdc2082c451c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3068273170857227586
+    second: White Ram Coyote Sprite_0
+  - first:
+      213: -3714171765590723873
+    second: White Ram Coyote Sprite_1
+  - first:
+      213: -3776489966245877968
+    second: White Ram Coyote Sprite_2
+  - first:
+      213: 7070415792067582286
+    second: White Ram Coyote Sprite_3
+  - first:
+      213: 6837217953813378093
+    second: White Ram Coyote Sprite_4
+  - first:
+      213: -3316537563192616868
+    second: White Ram Coyote Sprite_5
+  - first:
+      213: 4093758572536764852
+    second: White Ram Coyote Sprite_6
+  - first:
+      213: -4531794092329458811
+    second: White Ram Coyote Sprite_7
+  - first:
+      213: -6711581427623173679
+    second: White Ram Coyote Sprite_8
+  - first:
+      213: 5053683113593239479
+    second: White Ram Coyote Sprite_9
+  - first:
+      213: 5542227980226984442
+    second: White Ram Coyote Sprite_10
+  - first:
+      213: 3340429069917758076
+    second: White Ram Coyote Sprite_11
+  - first:
+      213: -4648393722566229367
+    second: White Ram Coyote Sprite_12
+  - first:
+      213: 8128593887096981588
+    second: White Ram Coyote Sprite_13
+  - first:
+      213: 1360795991558753322
+    second: White Ram Coyote Sprite_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 791
+        width: 389
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba8139becd4b65d0800000000000000
+      internalID: -3068273170857227586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 789
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2fd2d257c947cc0800000000000000
+      internalID: -3714171765590723873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 788
+        width: 391
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03766186266379bc0800000000000000
+      internalID: -3776489966245877968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 787
+        width: 389
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e491084c3b92f1260800000000000000
+      internalID: 7070415792067582286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 787
+        width: 383
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2438fcf08da2ee50800000000000000
+      internalID: 6837217953813378093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 422
+        width: 393
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581aa578aa49f1d0800000000000000
+      internalID: -3316537563192616868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 422
+        width: 391
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b993486bb3ffc830800000000000000
+      internalID: 4093758572536764852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 418
+        width: 392
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5832d739845db11c0800000000000000
+      internalID: -4531794092329458811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 417
+        width: 392
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d16965404cabd2a0800000000000000
+      internalID: -6711581427623173679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 418
+        width: 386
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b77d19240a422640800000000000000
+      internalID: 5053683113593239479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 389
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9f8a9ebf2f9ec40800000000000000
+      internalID: 5542227980226984442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 50
+        width: 388
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7226dd6a869b5e20800000000000000
+      internalID: 3340429069917758076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 53
+        width: 387
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982c84e99869d7fb0800000000000000
+      internalID: -4648393722566229367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 57
+        width: 384
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458c3dbb2119ec070800000000000000
+      internalID: 8128593887096981588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Ram Coyote Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 57
+        width: 379
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c82a89eb482e210800000000000000
+      internalID: 1360795991558753322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      White Ram Coyote Sprite_0: -3068273170857227586
+      White Ram Coyote Sprite_1: -3714171765590723873
+      White Ram Coyote Sprite_10: 5542227980226984442
+      White Ram Coyote Sprite_11: 3340429069917758076
+      White Ram Coyote Sprite_12: -4648393722566229367
+      White Ram Coyote Sprite_13: 8128593887096981588
+      White Ram Coyote Sprite_14: 1360795991558753322
+      White Ram Coyote Sprite_2: -3776489966245877968
+      White Ram Coyote Sprite_3: 7070415792067582286
+      White Ram Coyote Sprite_4: 6837217953813378093
+      White Ram Coyote Sprite_5: -3316537563192616868
+      White Ram Coyote Sprite_6: 4093758572536764852
+      White Ram Coyote Sprite_7: -4531794092329458811
+      White Ram Coyote Sprite_8: -6711581427623173679
+      White Ram Coyote Sprite_9: 5053683113593239479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

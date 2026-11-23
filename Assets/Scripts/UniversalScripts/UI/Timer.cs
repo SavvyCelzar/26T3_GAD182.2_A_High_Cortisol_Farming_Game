@@ -9,8 +9,10 @@ public class Timer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private WinScreen winScript;
 
-    protected float currentTime = 120f; // protected so you can perhaps change it via a separate inheriting script thats exclusive to your microgame
+    protected float currentTime = 100f; // protected so you can perhaps change it via a separate inheriting script thats exclusive to your microgame
     protected bool isTimerActive = true;
+
+    private AudioSource bgm;
 
     #endregion
 
@@ -23,6 +25,7 @@ public class Timer : MonoBehaviour
             timerText = text.GetComponent<TextMeshProUGUI>();
         }
 
+        bgm = GameObject.Find("Background Music").GetComponent<AudioSource>();
         winScript = GameObject.FindFirstObjectByType<WinScreen>();
     }
 
@@ -40,6 +43,10 @@ public class Timer : MonoBehaviour
         if (currentTime <= 0)
         {
             StopTimer();
+
+            winScript.WinSFX.Play();
+            bgm.Pause();
+
             winScript.winCanvas.enabled = true;
         }
     }

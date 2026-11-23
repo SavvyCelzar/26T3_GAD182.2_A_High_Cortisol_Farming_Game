@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 28c558fff33b8ab459ae220276177b6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8403401182069809288
+    second: Black Sheep Coyote Sprite_0
+  - first:
+      213: -5475806284919548293
+    second: Black Sheep Coyote Sprite_1
+  - first:
+      213: -4054006314172627972
+    second: Black Sheep Coyote Sprite_2
+  - first:
+      213: -993114289653112339
+    second: Black Sheep Coyote Sprite_3
+  - first:
+      213: 2940678279076977174
+    second: Black Sheep Coyote Sprite_4
+  - first:
+      213: -3601814259910805221
+    second: Black Sheep Coyote Sprite_5
+  - first:
+      213: -7674243014382830294
+    second: Black Sheep Coyote Sprite_6
+  - first:
+      213: 2054322349425592262
+    second: Black Sheep Coyote Sprite_7
+  - first:
+      213: 1479693457131841906
+    second: Black Sheep Coyote Sprite_8
+  - first:
+      213: -3567886024971558576
+    second: Black Sheep Coyote Sprite_9
+  - first:
+      213: -5913327660890266127
+    second: Black Sheep Coyote Sprite_10
+  - first:
+      213: 3182260727070699375
+    second: Black Sheep Coyote Sprite_11
+  - first:
+      213: -8392994714034373331
+    second: Black Sheep Coyote Sprite_12
+  - first:
+      213: -2719602147929433779
+    second: Black Sheep Coyote Sprite_13
+  - first:
+      213: 3585357886123726916
+    second: Black Sheep Coyote Sprite_14
+  - first:
+      213: 2256195832294059107
+    second: Black Sheep Coyote Sprite_15
+  - first:
+      213: -7052769423674939525
+    second: Black Sheep Coyote Sprite_16
+  - first:
+      213: 1732311998898106696
+    second: Black Sheep Coyote Sprite_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 787
+        width: 366
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8806e5a1ad0ee9470800000000000000
+      internalID: 8403401182069809288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 783
+        width: 368
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76d48822370204b0800000000000000
+      internalID: -5475806284919548293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 782
+        width: 372
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3cc8e7cb64db7c0800000000000000
+      internalID: -4054006314172627972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 781
+        width: 370
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1acd7b0dfb732f0800000000000000
+      internalID: -993114289653112339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 781
+        width: 363
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a171f70536fc820800000000000000
+      internalID: 2940678279076977174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 420
+        width: 371
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19741b8309c30ec0800000000000000
+      internalID: -3601814259910805221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 421
+        width: 372
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d30b763ac9f7590800000000000000
+      internalID: -7674243014382830294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 416
+        width: 371
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27920d80c5de88410800000000000000
+      internalID: 1479693457131841906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 415
+        width: 372
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5e42492d3afeda0800000000000000
+      internalID: -5913327660890266127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 417
+        width: 366
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dff3c86c7168b80800000000000000
+      internalID: -8392994714034373331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 371
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49d64a6148024ad0800000000000000
+      internalID: -2719602147929433779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 52
+        width: 368
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448dc0b5000c1c130800000000000000
+      internalID: 3585357886123726916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 56
+        width: 368
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36caa97d72e9f4f10800000000000000
+      internalID: 2256195832294059107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 60
+        width: 364
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b776e1b83978f1e90800000000000000
+      internalID: -7052769423674939525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Sheep Coyote Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 59
+        width: 359
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841f776b5986a0810800000000000000
+      internalID: 1732311998898106696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fd7fb67ae129c5a4d8e3fc3ba8d639f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Black Sheep Coyote Sprite_0: 8403401182069809288
+      Black Sheep Coyote Sprite_1: -5475806284919548293
+      Black Sheep Coyote Sprite_10: -5913327660890266127
+      Black Sheep Coyote Sprite_11: 3182260727070699375
+      Black Sheep Coyote Sprite_12: -8392994714034373331
+      Black Sheep Coyote Sprite_13: -2719602147929433779
+      Black Sheep Coyote Sprite_14: 3585357886123726916
+      Black Sheep Coyote Sprite_15: 2256195832294059107
+      Black Sheep Coyote Sprite_16: -7052769423674939525
+      Black Sheep Coyote Sprite_17: 1732311998898106696
+      Black Sheep Coyote Sprite_2: -4054006314172627972
+      Black Sheep Coyote Sprite_3: -993114289653112339
+      Black Sheep Coyote Sprite_4: 2940678279076977174
+      Black Sheep Coyote Sprite_5: -3601814259910805221
+      Black Sheep Coyote Sprite_6: -7674243014382830294
+      Black Sheep Coyote Sprite_7: 2054322349425592262
+      Black Sheep Coyote Sprite_8: 1479693457131841906
+      Black Sheep Coyote Sprite_9: -3567886024971558576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,10 @@ public class PauseScreen : MonoBehaviour
    [SerializeField] private Button continueButton;
    [SerializeField] private Button quitButton;
 
+    private AudioSource backgroundMusic;
+    private AudioSource pauseEnabledSFX;
+    private AudioSource pauseDisabledSFX;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,6 +27,8 @@ public class PauseScreen : MonoBehaviour
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             Pause();
+            backgroundMusic.Pause();
+            pauseEnabledSFX.Play();
         }
     }
 
@@ -45,6 +51,10 @@ public class PauseScreen : MonoBehaviour
             quitButton = quit.GetComponent<Button>();
         }
 
+        backgroundMusic = GameObject.Find("Background Music").GetComponent<AudioSource>();
+        pauseEnabledSFX = GameObject.Find("PauseEnabledSFX").GetComponent<AudioSource>();
+        pauseDisabledSFX = GameObject.Find("PauseDisabledSFX").GetComponent<AudioSource>();
+
         continueButton.onClick.AddListener(Resume);
         quitButton.onClick.AddListener(QuitToMenu);
 
@@ -54,12 +64,15 @@ public class PauseScreen : MonoBehaviour
     {
         Time.timeScale = 0;
         pauseCanvas.enabled = true;
+        pauseEnabledSFX.Play();
     }
 
     private void Resume()
     {
         Time.timeScale = 1;
         pauseCanvas.enabled = false;
+        backgroundMusic.Play();
+        pauseDisabledSFX.Play();
     }
 
     private void QuitToMenu()

@@ -7,6 +7,9 @@ public class GameOverScreen : MonoBehaviour
     [SerializeField] private Button restartButton;
     [SerializeField] private Button quitButton;
 
+    private AudioSource backgroundMusic;
+    public AudioSource gameOverSFX;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,7 +20,10 @@ public class GameOverScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (gameOverCanvas.enabled)
+        {
+            backgroundMusic.Pause(); 
+        }
     }
     private void GetUIReferencesAndListeners()
     {
@@ -37,6 +43,9 @@ public class GameOverScreen : MonoBehaviour
         {
             quitButton = quit.GetComponent<Button>();
         }
+
+        backgroundMusic = GameObject.Find("Background Music").GetComponent<AudioSource>();
+        gameOverSFX = GameObject.Find("GameOverSFX").GetComponent<AudioSource>();
 
         restartButton.onClick.AddListener(Restart);
         quitButton.onClick.AddListener(QuitToMenu);

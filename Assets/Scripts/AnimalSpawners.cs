@@ -13,6 +13,7 @@ public class AnimalSpawners : Timer
 
     private float increaseSpawnRateBy = 0.5f; 
     private float secondsToSpawnIncrease = 20f;
+    private float coyoteSpawnChance = 0.35f; 
 
     private float spawnerTimer;
     private float spawnRateTimer;
@@ -48,17 +49,32 @@ public class AnimalSpawners : Timer
 
         if (spawnerTimer >= currentSpawnRate)
         {
-            SpawnAnimal();
-            spawnerTimer = 0;
+            GameObject chosenAnimal = allAnimalTypes[Random.Range(0, allAnimalTypes.Length)];
+
+            if (chosenAnimal.CompareTag("Coyote")) // If object chosen in Random Range is tagged Coyote, spawn the coyote
+            {
+                if (Random.value <= coyoteSpawnChance)
+                {
+                    SpawnAnimal(chosenAnimal);
+                    Debug.Log("Random value landed on Coyote, Coyote spawned");
+                    spawnerTimer = 0;
+                }
+            }
+            else // Spawn normal sheep
+            {
+                SpawnAnimal(chosenAnimal);
+                Debug.Log("Sheep spawned");
+                spawnerTimer = 0;
+            }
+            
         }
 
     }
 
-    private void SpawnAnimal()
+    private void SpawnAnimal(GameObject randomAnimal)
     {
-        int randomAnimal = Random.Range(0, allAnimalTypes.Length);
         Vector2 spawnPointPosition = spawnPoint.position;
 
-        Instantiate(allAnimalTypes[randomAnimal], spawnPointPosition, Quaternion.identity);
+        Instantiate(randomAnimal, spawnPointPosition, Quaternion.identity);
     }
 }

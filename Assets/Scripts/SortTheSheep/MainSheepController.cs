@@ -23,6 +23,11 @@ namespace SAE.GAD182.Project2.SortTheSheep
         [SerializeField] protected float sheepMoveSpeed = 2f;
         public SpriteRenderer sheepSpriteRenderer;
 
+        [SerializeField] protected AudioClip[] animalSounds;
+        protected AudioSource animalSoundSource;
+
+        protected AudioSource correctSortSFX;
+
         protected static bool anyObjectBeingDragged = false;
 
         #endregion
@@ -33,7 +38,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
             AssignSceneObjects();
 
             originalPosition = transform.position;
-            sheepSpriteRenderer = GetComponent<SpriteRenderer>();   
+            PlayRandomAnimalSound();
         }
 
         protected virtual void Update()
@@ -56,7 +61,12 @@ namespace SAE.GAD182.Project2.SortTheSheep
             if (cursor != null)
             {
                 mouseCursor = cursor.transform;
-            }           
+            }
+
+            sheepSpriteRenderer = GetComponent<SpriteRenderer>();
+
+            animalSoundSource = GetComponent<AudioSource>();
+            correctSortSFX = GameObject.Find("CorrectSheepSortSound").GetComponent<AudioSource>();
         }
 
         protected virtual void OnMouseDown()
@@ -76,7 +86,7 @@ namespace SAE.GAD182.Project2.SortTheSheep
             if (amIBeingDragged == true && isSortedCorrectly == false)
             {
                 transform.position = mouseCursor.position;
-                transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
+                transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 10;
             }
         }
 
@@ -94,6 +104,8 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 GetComponent<AnimalMovement>().enabled = false;
 
                 isSortedCorrectly = true;
+                PlayRandomAnimalSound();
+                correctSortSFX.Play();
 
                 StartCoroutine(DespawnSortedSheep());
             }
@@ -102,7 +114,15 @@ namespace SAE.GAD182.Project2.SortTheSheep
                 transform.position = originalPosition;
             }
 
-            transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            transform.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
+        }
+
+        protected void PlayRandomAnimalSound()
+        {
+            if (animalSounds.Length == 0) return;
+
+            int randomTrack = Random.Range(0, animalSounds.Length);
+            animalSoundSource.PlayOneShot(animalSounds[randomTrack]);
         }
 
         #endregion

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 4c3665498b1954c429a2896d93ace3b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 731750058888448593
+    second: Black Ram Coyote Sprite_0
+  - first:
+      213: 1326722800144238808
+    second: Black Ram Coyote Sprite_1
+  - first:
+      213: -7149799625924472644
+    second: Black Ram Coyote Sprite_2
+  - first:
+      213: -3658894438246969872
+    second: Black Ram Coyote Sprite_3
+  - first:
+      213: 8381182109421253086
+    second: Black Ram Coyote Sprite_4
+  - first:
+      213: 3090944205594210739
+    second: Black Ram Coyote Sprite_5
+  - first:
+      213: 1857880363097887700
+    second: Black Ram Coyote Sprite_6
+  - first:
+      213: -4831581838327800100
+    second: Black Ram Coyote Sprite_7
+  - first:
+      213: -1642067475718320342
+    second: Black Ram Coyote Sprite_8
+  - first:
+      213: -2968196075526253955
+    second: Black Ram Coyote Sprite_9
+  - first:
+      213: -2983744181140923793
+    second: Black Ram Coyote Sprite_10
+  - first:
+      213: 7085515256495121133
+    second: Black Ram Coyote Sprite_11
+  - first:
+      213: -8678097118884627530
+    second: Black Ram Coyote Sprite_12
+  - first:
+      213: -7488959676718460867
+    second: Black Ram Coyote Sprite_13
+  - first:
+      213: -6113277101594044794
+    second: Black Ram Coyote Sprite_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 791
+        width: 389
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aca643dc2b72a00800000000000000
+      internalID: 731750058888448593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 789
+        width: 390
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d842028b57796210800000000000000
+      internalID: 1326722800144238808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 788
+        width: 391
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb01d891f1fc6cc90800000000000000
+      internalID: -7149799625924472644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 787
+        width: 389
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd03a1e4eef83dc0800000000000000
+      internalID: -3658894438246969872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 787
+        width: 383
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1b9ed19b0ff4470800000000000000
+      internalID: 8381182109421253086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 422
+        width: 393
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1bef2e06d35ea20800000000000000
+      internalID: 3090944205594210739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 422
+        width: 391
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d39f95c85488c910800000000000000
+      internalID: 1857880363097887700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 418
+        width: 392
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde1e37bae5c2fcb0800000000000000
+      internalID: -4831581838327800100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 417
+        width: 392
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f4694b4543639e0800000000000000
+      internalID: -1642067475718320342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 418
+        width: 386
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d729c8e3569dec6d0800000000000000
+      internalID: -2968196075526253955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 389
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad47ec97c9796d0800000000000000
+      internalID: -2983744181140923793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 50
+        width: 388
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2a00ac59ec45260800000000000000
+      internalID: 7085515256495121133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 53
+        width: 387
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb7a8e16a4319780800000000000000
+      internalID: -8678097118884627530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 57
+        width: 384
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30d8fb2aded11890800000000000000
+      internalID: -7488959676718460867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black Ram Coyote Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 57
+        width: 379
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68615f99dd6492ba0800000000000000
+      internalID: -6113277101594044794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Black Ram Coyote Sprite_0: 731750058888448593
+      Black Ram Coyote Sprite_1: 1326722800144238808
+      Black Ram Coyote Sprite_10: -2983744181140923793
+      Black Ram Coyote Sprite_11: 7085515256495121133
+      Black Ram Coyote Sprite_12: -8678097118884627530
+      Black Ram Coyote Sprite_13: -7488959676718460867
+      Black Ram Coyote Sprite_14: -6113277101594044794
+      Black Ram Coyote Sprite_2: -7149799625924472644
+      Black Ram Coyote Sprite_3: -3658894438246969872
+      Black Ram Coyote Sprite_4: 8381182109421253086
+      Black Ram Coyote Sprite_5: 3090944205594210739
+      Black Ram Coyote Sprite_6: 1857880363097887700
+      Black Ram Coyote Sprite_7: -4831581838327800100
+      Black Ram Coyote Sprite_8: -1642067475718320342
+      Black Ram Coyote Sprite_9: -2968196075526253955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

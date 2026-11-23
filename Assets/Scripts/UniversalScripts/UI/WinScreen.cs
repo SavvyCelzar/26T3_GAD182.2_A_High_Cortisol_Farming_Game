@@ -8,6 +8,8 @@ public class WinScreen : MonoBehaviour
     [SerializeField] private Button continueButton;
     [SerializeField] private Button quitButton;
 
+    public AudioSource WinSFX;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,7 +40,9 @@ public class WinScreen : MonoBehaviour
         if (quit != null)
         {
             quitButton = quit.GetComponent<Button>();
-        } 
+        }
+
+        WinSFX = GameObject.Find("WinSFX").GetComponent<AudioSource>();
 
         continueButton.onClick.AddListener(Continue);
         quitButton.onClick.AddListener(QuitToMenu);

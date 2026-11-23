@@ -8,12 +8,20 @@ namespace SAE.GAD182.Project2.SortTheSheep
     /// </summary>
     public class CustomCursor : MonoBehaviour
     {
+        [SerializeField] private Texture2D hoverCursor;
+        [SerializeField] private Texture2D clickCursor;
+
+        private Vector2 cursorOffset = Vector2.zero;
+
         #region Cursor Code
+
+        private void Start()
+        {
+            Cursor.SetCursor(hoverCursor, cursorOffset, CursorMode.Auto);
+        }
 
         private void Update()
         {
-            Cursor.visible = false;
-
             Vector3 mousePosition;
 
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -21,6 +29,14 @@ namespace SAE.GAD182.Project2.SortTheSheep
 
             transform.position = mousePosition;
 
+            if (Input.GetMouseButtonDown(0))
+            {
+                Cursor.SetCursor(clickCursor, cursorOffset, CursorMode.Auto);
+            }
+            else if (Input.GetMouseButtonUp(0))
+            {
+                Cursor.SetCursor(hoverCursor, cursorOffset, CursorMode.Auto);
+            }
         }
 
         #endregion
